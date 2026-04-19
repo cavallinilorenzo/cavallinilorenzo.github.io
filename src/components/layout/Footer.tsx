@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Heart } from "lucide-react";
 import { useLocale } from "@/hooks/useLocale";
+import { links } from "@/data/portfolio-data";
 
 function LinkedInIcon() {
   return (
@@ -46,7 +47,7 @@ export function Footer() {
             {/* Social icons */}
             <div className="flex items-center gap-3 mt-5">
               <a
-                href="https://linkedin.com/in/lorenzo-cavallini"
+                href={links.socials.find(s => s.label === "LinkedIn")?.url || "#"}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -55,7 +56,7 @@ export function Footer() {
                 <LinkedInIcon />
               </a>
               <a
-                href="https://github.com/lorenzocavallini"
+                href={links.socials.find(s => s.label === "GitHub")?.url || "#"}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -114,10 +115,10 @@ export function Footer() {
               </button>
             </div>
             <a
-              href="mailto:cavallinilorenzo05@gmail.com"
+              href={links.contacts.find(c => c.label === "Email")?.url || "mailto:cavallinilorenzo05@gmail.com"}
               className="text-sm text-base-content/50 hover:text-primary transition-colors"
             >
-              cavallinilorenzo05@gmail.com
+              {links.contacts.find(c => c.label === "Email")?.url.replace("mailto:", "") || "cavallinilorenzo05@gmail.com"}
             </a>
           </div>
         </div>
