@@ -37,7 +37,7 @@ export function ProjectCard({
       ref={ref}
       initial={{ opacity: 0, y: 32 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+      transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" as const }}
       className="group relative"
     >
       <div className="relative h-full rounded-2xl border border-white/8 bg-base-200/60 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-primary/30 hover:bg-base-200/80 hover:shadow-[0_0_40px_rgba(37,99,235,0.12)]">

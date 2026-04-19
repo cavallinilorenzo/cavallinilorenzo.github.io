@@ -84,7 +84,7 @@ export default function HomePage() {
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
           animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" as const }}
         >
           <div className="w-px h-8 bg-gradient-to-b from-transparent to-base-content/30 mx-auto" />
         </motion.div>

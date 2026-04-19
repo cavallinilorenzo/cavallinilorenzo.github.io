@@ -25,7 +25,7 @@ export function HighlightedText({ text, className = "", delay = 0 }: Highlighted
         }}
         initial={{ scaleX: 0 }}
         animate={isInView ? { scaleX: 1 } : { scaleX: 0 }}
-        transition={{ duration: 0.5, delay: delay + 0.3, ease: "easeOut" }}
+        transition={{ duration: 0.5, delay: delay + 0.3, ease: "easeOut" as const }}
       />
       {/* Highlight shimmer sweep */}
       <motion.span
