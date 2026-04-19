@@ -179,6 +179,39 @@ export const projects: Project[] = [
       ],
       results: "Speed-up of the editorial process by 80% and total coverage of provincial social profiles."
     }
+  },
+  {
+    id: "scientific-tutoring",
+    type: "freelance",
+    emoji: "🧪",
+    featured: true,
+    status: "active",
+    it: {
+      title: "Mentoring e Ripetizioni Scientifiche",
+      tagline: "Eccellenza accademica attraverso il metodo scientifico",
+      description: "Supporto didattico personalizzato per studenti delle superiori, con focus su materie STEM e ottimizzazione del metodo di studio.",
+      fullDescription: "Un percorso di mentoring dedicato a studenti delle scuole superiori, mirato non solo al superamento delle difficoltà immediate ma alla costruzione di un metodo di studio solido e duraturo. L'approccio si basa sulla scomposizione di concetti complessi in moduli intuitivi, tipico dell'ingegneria, applicato alla didattica.",
+      techStack: ["Matematica", "Fisica", "Chimica", "Metodo di Studio", "Problem Solving"],
+      keyFeatures: [
+        { title: "Metodo Personalizzato", description: "Percorsi su misura basati sulle lacune specifiche e sullo stile di apprendimento di ogni studente." },
+        { title: "Focus STEM", description: "Approfondimento verticale in Matematica, Fisica e Chimica, rendendo semplici concetti complessi." },
+        { title: "Mentalità da Problem Solver", description: "Approccio analitico per affrontare qualsiasi sfida scolastica con sicurezza." }
+      ],
+      results: "Oltre l'80% degli studenti ha migliorato la propria media di almeno 2 punti. Un caso di successo ha visto il recupero di 4 insufficienze gravi, portando lo studente alla promozione finale senza debiti."
+    },
+    en: {
+      title: "Scientific Mentoring & Tutoring",
+      tagline: "Academic excellence through the scientific method",
+      description: "Personalized educational support for high school students, focusing on STEM subjects and study method optimization.",
+      fullDescription: "A mentoring program dedicated to high school students, aimed not just at overcoming immediate difficulties but at building a solid and lasting study method. The approach is based on breaking down complex concepts into intuitive modules, typical of engineering, applied to teaching.",
+      techStack: ["Mathematics", "Physics", "Chemistry", "Study Methods", "Problem Solving"],
+      keyFeatures: [
+        { title: "Personalized Method", description: "Tailored learning paths based on each student's specific gaps and learning style." },
+        { title: "STEM Focus", description: "Deep dives into Mathematics, Physics, and Chemistry, simplifying complex concepts." },
+        { title: "Problem Solver Mindset", description: "An analytical approach to tackle any academic challenge with confidence." }
+      ],
+      results: "Over 80% of students improved their GPA by at least 2 points. One success story involved recovering 4 major failing grades, leading the student to final promotion without any academic credits to recover."
+    }
   }
 ];
 
