@@ -155,29 +155,29 @@ export const projects: Project[] = [
     status: "completed",
     it: {
       title: "MantovaSoon Events Parser",
-      tagline: "Aggregatore automatico di eventi locali",
-      description: "Automazione che genera bozze di eventi giornalieri scansionando le fonti degli organizzatori locali.",
+      tagline: "Instagram Scraper & Event Aggregator",
+      description: "Automazione che monitora i profili Instagram degli organizzatori per generare bozze di eventi giornalieri.",
       client: "MantovaSoon",
-      fullDescription: "Sistema di scraping e parsing che ogni giorno raccoglie gli eventi pubblicati dagli organizzatori di Mantova il giorno precedente, preparandoli come bozze pronte per la pubblicazione.",
-      techStack: ["Python", "Web Scraping", "Data Cleaning", "API Integration"],
+      fullDescription: "Sistema avanzato di scraping che monitora costantemente i profili Instagram dei principali organizzatori di eventi a Mantova. L'algoritmo estrae automaticamente foto, descrizioni e date dai nuovi post, trasformandoli in bozze editoriali pronte per la pubblicazione su MantovaSoon.",
+      techStack: ["Python", "Instagram Scouting", "Web Scraping", "Data Cleaning", "API Integration"],
       keyFeatures: [
-        { title: "Ethical Scraping", description: "Scansione rispettosa delle fonti per l'estrazione di date, luoghi e descrizioni." },
-        { title: "Draft Generator", description: "Creazione automatica di bozze strutturate per il team editoriale." }
+        { title: "Instagram Monitoring", description: "Scansione automatica dei post degli organizzatori locali in tempo reale." },
+        { title: "Draft Generator", description: "Creazione automatica di bozze strutturate con immagini e testi estratti." }
       ],
-      results: "Velocizzazione del processo editoriale dell'80% e copertura totale degli eventi provinciali."
+      results: "Velocizzazione del processo editoriale dell'80% e copertura totale dei profili social provinciali."
     },
     en: {
       title: "MantovaSoon Events Parser",
-      tagline: "Automatic local events aggregator",
-      description: "Automation that generates daily event drafts by scanning sources from local organizers.",
+      tagline: "Instagram Scraper & Event Aggregator",
+      description: "Automation that monitors organizers' Instagram profiles to generate daily event drafts.",
       client: "MantovaSoon",
-      fullDescription: "Scraping and parsing system that daily collects events published by Mantua organizers the previous day, preparing them as ready-to-publish drafts.",
-      techStack: ["Python", "Web Scraping", "Data Cleaning", "API Integration"],
+      fullDescription: "Advanced scraping system that constantly monitors the Instagram profiles of the main event organizers in Mantua. The algorithm automatically extracts photos, descriptions, and dates from new posts, transforming them into editorial drafts ready for publication on MantovaSoon.",
+      techStack: ["Python", "Instagram Scouting", "Web Scraping", "Data Cleaning", "API Integration"],
       keyFeatures: [
-        { title: "Ethical Scraping", description: "Respectful source scanning for extraction of dates, locations, and descriptions." },
-        { title: "Draft Generator", description: "Automatic creation of structured drafts for the editorial team." }
+        { title: "Instagram Monitoring", description: "Automatic real-time scanning of local organizers' posts." },
+        { title: "Draft Generator", description: "Automatic creation of structured drafts with extracted images and texts." }
       ],
-      results: "Editorial process speed-up by 80% and total coverage of provincial events."
+      results: "Speed-up of the editorial process by 80% and total coverage of provincial social profiles."
     }
   }
 ];

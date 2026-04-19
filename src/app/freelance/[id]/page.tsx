@@ -43,9 +43,7 @@ export default function ProjectDetailPage() {
       <ProjectDetailLayout
         project={localizedProject}
         backLabel={locale === "it" ? "Torna ai progetti" : "Back to projects"}
-        techStackLabel={locale === "it" ? "Stack Tecnologico" : "Tech Stack"}
         featuresLabel={locale === "it" ? "Caratteristiche Chiave" : "Key Features"}
-        resultsLabel={locale === "it" ? "Risultati" : "Results"}
       />
     </motion.div>
   );
