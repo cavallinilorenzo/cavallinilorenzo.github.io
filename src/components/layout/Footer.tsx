@@ -114,10 +114,10 @@ export function Footer() {
               </button>
             </div>
             <a
-              href="mailto:cavallini.lorenzo@icloud.com"
+              href="mailto:cavallinilorenzo05@gmail.com"
               className="text-sm text-base-content/50 hover:text-primary transition-colors"
             >
-              cavallini.lorenzo@icloud.com
+              cavallinilorenzo05@gmail.com
             </a>
           </div>
         </div>

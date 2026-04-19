@@ -96,11 +96,11 @@ export function ProjectCard({
           )}
 
           {/* CTA link */}
-          {project.url && (
+          {(project.url || project.fullDescription) && (
             <Link
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={project.fullDescription ? `/freelance/${project.id}` : (project.url || "#")}
+              target={project.fullDescription ? "_self" : "_blank"}
+              rel={project.fullDescription ? undefined : "noopener noreferrer"}
               className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-sky-400 transition-colors"
             >
               {discoverLabel}

@@ -74,7 +74,7 @@ export default function FreelancePage() {
           <p className="text-base-content/55 mb-6 max-w-md mx-auto">{t.ctaDesc}</p>
           <a
             id="freelance-contact-cta"
-            href="mailto:cavallini.lorenzo@icloud.com"
+            href="mailto:cavallinilorenzo05@gmail.com"
             className="btn btn-primary rounded-full px-8 font-medium"
           >
             {t.ctaButton}
