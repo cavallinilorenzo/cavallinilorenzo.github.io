@@ -212,6 +212,62 @@ export const projects: Project[] = [
       ],
       results: "Over 80% of students improved their GPA by at least 2 points. One success story involved recovering 4 major failing grades, leading the student to final promotion without any academic credits to recover."
     }
+  },
+  {
+    id: "dossi-srl",
+    type: "freelance",
+    emoji: "🏗️",
+    url: "https://www.dossisrl.it",
+    featured: true,
+    status: "completed",
+    it: {
+      title: "Dossi S.r.l.",
+      tagline: "Ingegneria Civile e Idraulica dal 1947",
+      description: "Sviluppo del sito web aziendale istituzionale per Dossi S.r.l., realtà leader nel settore delle costruzioni stradali, difesa del suolo ed edilizia industriale.",
+      techStack: ["Next.js", "TypeScript", "Vanilla CSS", "Responsive Design"],
+      keyFeatures: [
+        { title: "Portfolio Progetti", description: "Vetrina dinamica dei principali interventi di ingegneria civile e idraulica." },
+        { title: "Design Istituzionale", description: "Interfaccia professionale ottimizzata per la comunicazione corporate." }
+      ]
+    },
+    en: {
+      title: "Dossi S.r.l.",
+      tagline: "Civil and Hydraulic Engineering since 1947",
+      description: "Development of the official corporate website for Dossi S.r.l., a leading company in road construction, soil defense, and industrial building.",
+      techStack: ["Next.js", "TypeScript", "Vanilla CSS", "Responsive Design"],
+      keyFeatures: [
+        { title: "Project Portfolio", description: "Dynamic showcase of main civil and hydraulic engineering projects." },
+        { title: "Corporate Design", description: "Professional interface optimized for corporate communication." }
+      ]
+    }
+  },
+  {
+    id: "hydrobau",
+    type: "freelance",
+    emoji: "🌊",
+    url: "https://www.hydrobau.it",
+    featured: true,
+    status: "completed",
+    it: {
+      title: "Hydrobau",
+      tagline: "Opere Marittime e Dragaggi Specialistici",
+      description: "Realizzazione del sito web istituzionale per Hydrobau, specialisti in ingegneria marittima, costruzione di porti e infrastrutture subacquee complesse.",
+      techStack: ["Next.js", "TypeScript", "Vanilla CSS", "Smooth UX"],
+      keyFeatures: [
+        { title: "Industrial Showcase", description: "Presentazione tecnica di macchinari avanzati e metodologie di dragaggio." },
+        { title: "Multilingual Support", description: "Architettura predisposta per l'espansione internazionale e partner globali." }
+      ]
+    },
+    en: {
+      title: "Hydrobau",
+      tagline: "Maritime Works and Specialized Dredging",
+      description: "Official institutional website for Hydrobau, specialists in maritime engineering, port construction, and complex underwater infrastructure.",
+      techStack: ["Next.js", "TypeScript", "Vanilla CSS", "Smooth UX"],
+      keyFeatures: [
+        { title: "Industrial Showcase", description: "Technical presentation of advanced machinery and dredging methodologies." },
+        { title: "Multilingual Support", description: "Architecture designed for international expansion and global partners." }
+      ]
+    }
   }
 ];
 
